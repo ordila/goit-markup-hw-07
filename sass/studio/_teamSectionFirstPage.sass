@@ -1,0 +1,72 @@
+.team
+  background-color: #f4f4fd
+  padding: 120px 0
+  
+.list_team
+  display: flex
+
+
+.title_team
+  font-family: "Roboto"
+  line-height: 1.11
+  font-weight: 700
+  font-size: 36px
+  color: var(--navyblue)
+  text-align: center
+  letter-spacing: 0.02em
+  text-transform: capitalizes
+  margin-bottom: 72px
+
+.workers
+  background-color: #ffffff
+  width: calc((100% - 72px) / 4)
+  border-radius: 0px 0px 4px 4px
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08)
+  &:not(:last-child)
+    margin-right: 24px
+
+.container_team
+  padding: 32px 16px
+
+.title_workers
+  font-family: "Roboto", sans-serif
+  font-weight: 500
+  font-size: 20px
+  line-height: 1.2
+  letter-spacing: 0.02em
+  color: var(--navyblue)
+  text-align: center
+  margin-bottom: 8px
+
+.description_workers
+  font-size: 16px
+  letter-spacing: 0.02em
+  line-height: 1.5
+  color: var(--slate)
+  text-align: center
+  margin-bottom: 8px
+
+.social_list
+  display: flex
+  justify-content: center
+  gap: 24px
+
+.social_link
+  display: flex
+  width: 40px
+  height: 40px
+  border-radius: 50%
+  background: #4d5ae5
+  justify-content: center
+  align-items: center
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+
+  &:hover
+    background-color: #404bbf
+
+  &:focus
+    background-color: #404bbf
+    outline: none
+
+  svg
+    fill: #f4f4fd
