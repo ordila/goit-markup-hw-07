@@ -1,0 +1,21 @@
+1. відвантажити фото в х2 для ретіна дисплеїв для бекграунду і тегів фото
+@2x
+2.Перетворити фото у webp формат 
+3.почати адаптив з контейнера 
+
+
+
+попрацюй над тайтл в секції робітники і шрифтами 
+
+кнопки не мають мати фіксовану висоту  їх заміняє текс і падінги зверху внизу. Ширина через падінги і даєш мін-відс
+
+   <li class="navigation_item_list">
+              <a class="navigation_item link" href="./index.html">Studio</a>
+            </li>
+            <li class="navigation_item_list">
+              <a
+                class="navigation_item active_link link"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>

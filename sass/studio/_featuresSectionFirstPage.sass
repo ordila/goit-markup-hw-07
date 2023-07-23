@@ -1,48 +1,72 @@
-.features
-  padding: 120px 0
-
-.features_ul
-  display: flex
-
-
-.features_title
-  position: absolute
-  width: 1px
-  height: 1px
-  margin: -1px
-  border: 0
-  padding: 0
-  white-space: nowrap
-  clip-path: inset(100%)
-  clip: rect(0 0 0 0)
-  overflow: hidden
-
-
-.features_item
-  width: calc((100% - 72px) / 4)
-
-  &:not(:last-child)
-    margin-right: 24px
-
 .feature_icon
-  display: flex
-  justify-content: center
-  align-items: center
-  height: 112px
-  background-color: #f4f4fd
-  border-radius: 4px
-  margin-bottom: 8px
-
-  svg
-    width: 64px
-    height: 64px
-
+  display: none
+  
+.features
+  padding: 96px 0
+  
+.features_subtitle
+  text-align: center
+  color: var(--navyblue, #2E2F42)
+  font-size: 36px
+  font-weight: 700
+  line-height: 40px
+  letter-spacing: 0.72px
+  margin-bottom:8px
+  
 .features_description
   font-family: "Roboto"
   font-size: 16px
   line-height: 24px
-  letter-spacing: 0.02em
   color: var(--slate)
+
+@media screen and (max-width:767px)
+  .features_item:not(:last-child)
+    margin-bottom: 72px
+  
+  
+  
+  
+  
+// .features
+//   padding: 120px 0
+
+// .features_ul
+//   display: flex
+
+
+
+// .features_item
+//   width: calc((100% - 72px) / 4)
+
+//   &:not(:last-child)
+//     margin-right: 24px
+
+// .feature_icon
+//   display: flex
+//   justify-content: center
+//   align-items: center
+//   height: 112px
+//   background-color: #f4f4fd
+//   border-radius: 4px
+//   margin-bottom: 8px
+
+//   svg
+//     width: 64px
+//     height: 64px
+
+// .features_subtitle 
+//   color: var(--navyblue, #2E2F42)
+//   font-size: 20px
+//   font-weight: 500
+//   line-height: 24px
+//   letter-spacing: 0.4px
+
+// .features_description
+//   font-family: "Roboto"
+//   font-size: 16px
+//   line-height: 24px
+//   letter-spacing: 0.02em
+//   color: var(--slate)
 
 
 

@@ -1,9 +1,10 @@
 .team
   background-color: #f4f4fd
-  padding: 120px 0
+  padding: 96px 0
   
-.list_team
-  display: flex
+// .list_team
+//   display: flex
+//   gap: 24px
 
 
 .title_team
@@ -19,14 +20,21 @@
 
 .workers
   background-color: #ffffff
-  width: calc((100% - 72px) / 4)
+  max-width: 264px
+ 
   border-radius: 0px 0px 4px 4px
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08)
-  &:not(:last-child)
-    margin-right: 24px
+
 
 .container_team
   padding: 32px 16px
+
+@media screen and (max-width:767px)
+  .workers:not(:last-child)
+    margin-bottom: 72px
+  .workers
+    margin: 0 auto
+
 
 .title_workers
   font-family: "Roboto", sans-serif

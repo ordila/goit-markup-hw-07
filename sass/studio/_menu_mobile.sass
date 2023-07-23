@@ -1,0 +1,80 @@
+.modal_burger 
+  width:100%
+  height: 100%
+  position: fixed
+  top:0
+  left:0
+  background-color: white
+  z-index: 1000
+  
+  display: none
+.is-open 
+  display: block
+  
+.modal_menu_btn
+  width: 24px
+  height: 24px 
+  display: flex
+  justify-content: center
+  align-items: center
+  border-radius: 50%
+  border: 1px solid #e7e9fc
+  background-color: white
+  position: absolute
+  top: 24px
+  right: 19px
+  padding: 0
+  line-height: 0
+.burger_menu_btn
+  background-color: transparent
+  border: none
+  padding: 0
+  height: 22px
+.burger_icon
+  fill: var(--navyblue)
+
+.mobile_menu_container
+  position: relative
+  padding-left: 40px
+  padding-top: 80px 
+  padding-bottom: 40px
+
+
+.link_menu_tel
+  color: var(--navyblue)
+  font-size: 36px
+  font-weight: 700
+  line-height: 40px
+  letter-spacing: 0.72px
+
+
+.adress_menu_tel
+  margin-top: 284px
+
+
+
+.adress_tel_tel
+  margin-bottom: 40px
+  font-size: 36px
+  font-weight: 700
+  line-height: 40px
+  letter-spacing: 0.72px
+  color: var(--iris)
+
+.adress_item_mail_tel
+  color: var(--slate)
+  font-size: 20px
+  font-weight: 500
+  line-height: 24px
+  letter-spacing: 0.4px
+
+.social_list_tel
+  gap: 56px
+  flex-wrap: wrap
+  margin-top: 48px
+
+@media screen and (min-width:767px)
+  .modal_burger
+    display: none
+  .burger_menu_btn
+    display: none

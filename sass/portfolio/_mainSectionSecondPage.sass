@@ -6,6 +6,9 @@
   display: flex
   justify-content: center
   margin-bottom: 72px
+  flex-wrap: wrap
+  gap:16px 24px
+  
 
 .button_filtr
   font-family: "Roboto", sans-serif
@@ -28,8 +31,7 @@
     border: 1px solid transparent
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1)
 
-.button_portfolio_li:not(:last-child)
-  margin-right: 24px
+
 
 .features_subtitle
   font-family: "Roboto", sans-serif
@@ -58,18 +60,13 @@
 .photo_list
   display: flex
   flex-wrap: wrap
+  gap: 48px 24px
 
 .photo_item
   width: calc((100% - 48px) / 3)
-  margin-right: 24px
-  margin-bottom: 48px
 
-  &:nth-child(3n)
-    margin-right: 0
 
-  &:nth-last-child(-n + 3)
-    margin-bottom: 0
-
+ 
 .descriptionPhoto
   font-family: "Roboto", sans-serif
   font-weight: 400
@@ -82,6 +79,24 @@
   padding: 32px 16px
   border: 1px solid #e7e9fc
   border-top: none
+
+@media screen and (max-width:1157px)
+  .photo_list
+    gap: 72px 24px
+  .photo_item
+    width: calc((100% - 24px) / 2)
+
+@media screen and (max-width:767px)
+  .photo_list
+    gap: 48px
+    justify-content: center
+
+  .photo_item
+    width:264px
+
+  .buttons_filtr
+    justify-content: start
+    
 
 //    OVERLAY CARDS  
 
