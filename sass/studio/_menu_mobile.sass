@@ -33,11 +33,16 @@
 .burger_icon
   fill: var(--navyblue)
 
-.mobile_menu_container
+.modal_burger .mobile_menu_container
   position: relative
   padding-left: 40px
   padding-top: 80px 
   padding-bottom: 40px
+  
+.mobile_menu_list
+  display: flex
+  flex-direction: column
+  gap:40px
 
 
 .link_menu_tel
@@ -72,7 +77,12 @@
   gap: 56px
   flex-wrap: wrap
   margin-top: 48px
-
+@media screen and (max-width: 427px)
+  .social_list_tel
+    gap: 20px
+  
+  .adress_tel_tel
+    font-size: 25px
 @media screen and (min-width:767px)
   .modal_burger
     display: none

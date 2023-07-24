@@ -1,21 +1,27 @@
-1. відвантажити фото в х2 для ретіна дисплеїв для бекграунду і тегів фото
-@2x
-2.Перетворити фото у webp формат 
-3.почати адаптив з контейнера 
+1. відвантажити фото в х2 для ретіна дисплеїв для бекграунду і тегів фото @2x
+2.Перетворити фото у webp формат 3.почати адаптив з контейнера попрацюй над
+тайтл в секції робітники і шрифтами кнопки не мають мати фіксовану висоту їх
+заміняє текс і падінги зверху внизу. Ширина через падінги і даєш мін-відс
 
+<li class="navigation_item_list">
+  <a class="navigation_item link" href="./index.html">Studio</a>
+</li>
+<li class="navigation_item_list">
+  <a class="navigation_item active_link link" href="./portfolio.html"
+    >Portfolio</a
+  >
+</li>
 
+<picture
+  <source
+  srcset="
+./images/works/mix.jpg     1x,
+./images/works/mix@2x.jpg  2x"
+  type="image/jpeg"
+/>
+<source
+  srcset="./images/works/mix.webp 1x, ./images/works/mix@2x.webp 2x"
+  type="image/webp"
+/>
 
-попрацюй над тайтл в секції робітники і шрифтами 
-
-кнопки не мають мати фіксовану висоту  їх заміняє текс і падінги зверху внизу. Ширина через падінги і даєш мін-відс
-
-   <li class="navigation_item_list">
-              <a class="navigation_item link" href="./index.html">Studio</a>
-            </li>
-            <li class="navigation_item_list">
-              <a
-                class="navigation_item active_link link"
-                href="./portfolio.html"
-                >Portfolio</a
-              >
-            </li>
+<img src="./images/works/mix.jpg" alt="desctop" width="360" />

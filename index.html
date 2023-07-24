@@ -66,7 +66,7 @@
       </div>
       <div class="modal_burger js-menu-container">
         <div class="container mobile_menu_container">
-          <ul class="list">
+          <ul class="mobile_menu_list list">
             <li>
               <a href="" class="link_menu_tel active_link link">Studio</a>
             </li>
@@ -207,13 +207,72 @@
           <h2 class="title_works">What are we doing</h2>
           <ul class="works_list list">
             <li class="work_photo">
-              <img src="./images/desktop.jpg" alt="desctop" width="360" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/works/desktop.webp    1x,
+                    ./images/works/desktop@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/works/desktop.jpg    1x,
+                    ./images/works/desktop@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img
+                  src="./images/works/desktop.jpg"
+                  alt="desctop"
+                  width="360"
+                />
+              </picture>
             </li>
             <li class="work_photo">
-              <img src="./images/mobile.jpg" alt="desctop" width="360" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/works/mobile.webp    1x,
+                    ./images/works/mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/works/mobile.jpg    1x,
+                    ./images/works/mobile@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img
+                  src="./images/works/mobile.jpg"
+                  alt="desctop"
+                  width="360"
+                />
+              </picture>
             </li>
             <li class="work_photo">
-              <img src="./images/mix.jpg" alt="adaptive" width="360" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/works/mix.webp    1x,
+                    ./images/works/mix@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/works/mix.jpg    1x,
+                    ./images/works/mix@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img src="./images/works/mix.jpg" alt="desctop" width="360" />
+              </picture>
             </li>
           </ul>
         </div>
@@ -223,7 +282,24 @@
           <h2 class="title_team">Our Team</h2>
           <ul class="list_team list">
             <li class="workers">
-              <img src="./images/beard.jpg" alt="man" width="264" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/employees/beard.webp    1x,
+                    ./images/employees/beard@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/employees/beard.jpg    1x,
+                    ./images/employees/beard@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+
+                <img src="./images/employees/beard.jpg" alt="man" width="264" />
+              </picture>
               <div class="container_team">
                 <h3 class="title_workers">Mark Guerrero</h3>
                 <p class="description_workers">Product Designer</p>
@@ -260,7 +336,28 @@
               </div>
             </li>
             <li class="workers">
-              <img src="./images/small_beard.jpg" alt="man" width="264" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/employees/small_beard.webp    1x,
+                    ./images/employees/small_beard@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/employees/small_beard.jpg    1x,
+                    ./images/employees/small_beard@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/employees/small_beard.jpg"
+                  alt="man"
+                  width="264"
+                />
+              </picture>
+
               <div class="container_team">
                 <h3 class="title_workers">Tom Ford</h3>
                 <p class="description_workers">Frontend Developer</p>
@@ -297,7 +394,27 @@
               </div>
             </li>
             <li class="workers">
-              <img src="./images/woman.jpg" alt="woman" width="264" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/employees/woman.webp    1x,
+                    ./images/employees/woman@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/employees/woman.jpg    1x,
+                    ./images/employees/woman@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/employees/woman.jpg"
+                  alt="woman"
+                  width="264"
+                />
+              </picture>
               <div class="container_team">
                 <h3 class="title_workers">Camila Garcia</h3>
                 <p class="description_workers">Marketing</p>
@@ -334,7 +451,27 @@
               </div>
             </li>
             <li class="workers">
-              <img src="./images/medium_beard.jpg" alt="man" width="264" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/employees/medium_beard.webp    1x,
+                    ./images/employees/medium_beard@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/employees/medium_beard.jpg    1x,
+                    ./images/employees/medium_beard@2x.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/employees/medium_beard.jpg"
+                  alt="woman"
+                  width="264"
+                />
+              </picture>
               <div class="container_team">
                 <h3 class="title_workers">Daniel Wilson</h3>
                 <p class="description_workers">UI Designer</p>
